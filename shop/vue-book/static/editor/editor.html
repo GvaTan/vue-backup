@@ -1,0 +1,33 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>无标题文档</title>
+<link rel="stylesheet" type="text/css" href="http://www.jq22.com/jquery/bootstrap-3.3.4.css">
+<link href="dist/summernote.css" rel="stylesheet"/>
+<script src="http://www.jq22.com/jquery/jquery-1.10.2.js"></script>
+<script src="http://www.jq22.com/jquery/bootstrap-3.3.4.js"></script>
+<script src="dist/summernote.js"></script>
+<script src="dist/lang/summernote-zh-CN.js"></script>    <!-- 中文-->
+
+<style>
+	.m{ width: 100%;height:100%; margin-left: auto; margin-right: auto; }
+</style>
+<script>
+$(function(){
+ $('.summernote').summernote({
+        height: 800,
+        tabsize: 2,
+        lang: 'zh-CN'
+    });
+});
+</script>
+</head>
+
+<body>
+	<div class="m">		
+		<div class="summernote">如果你上传的是壁纸，那么请你在此处插入一张壁纸的预览图，这里可以调整你的预览图大小</div>
+	</div>
+
+</body>
+</html>
